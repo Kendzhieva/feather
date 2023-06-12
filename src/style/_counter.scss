@@ -1,0 +1,22 @@
+.counter{
+    &__block{
+        display: flex;
+        align-items: center;
+        column-gap: 141px;
+        margin-bottom: 64px;
+    }
+    &__title{
+        font-size: 36px;
+        color: #000000;
+    }
+    &__text{
+        margin: 20px 0 33px;
+        font-size: 18px;
+        line-height: 28px;
+        color: #000000;
+    }
+    &__link{
+        font-size: 18px;
+        color: #E9672B;
+    }
+}

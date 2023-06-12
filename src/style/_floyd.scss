@@ -1,0 +1,43 @@
+.floyd{
+    background: #E9672B;
+    &__block{
+        width: 1280px;
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+    }
+    &__img{
+        width: 832px;
+        height: 344px;
+    }
+    &__info{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 61px 0;
+        background: #E9672B;
+    }
+    &__title{
+        text-align: center;
+        font-size: 36px;
+        line-height: 44px;
+        color: #FFFFFF;
+        margin: 24px 0 32px;
+    }
+    &__btn{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        padding: 16px 40px;
+        background: #FFFFFF;
+        border-radius: 88px;
+        font-size: 18px;
+        color: #000000;
+        &:hover{
+            background: transparent;
+            border: 2px solid #fff;
+            color: #fff;
+            transition: 0.4s;
+        }
+    }
+}

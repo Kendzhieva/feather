@@ -1,0 +1,28 @@
+.way{
+    background: #FBF8F5;
+    padding: 120px 0;
+    &__block{
+        text-align: center;
+    }
+    &__text{
+        font-size: 24px;
+        line-height: 32px;
+        text-align: center;
+        color: #000000;
+        margin: 41px 0 39px;
+    }
+    &__btn{
+        cursor: pointer;
+        padding: 16px 40px;
+        font-size: 18px;
+        color: #000000;
+        background: #E9672B;
+        border-radius: 88px;
+        &:hover{
+            background: transparent;
+            border: 2px solid #E9672B;
+            color: #E9672B;
+            transition: 0.4s;
+        }
+    }
+}

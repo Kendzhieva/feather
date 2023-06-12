@@ -1,0 +1,43 @@
+.our{
+    padding: 112px 0 144px;
+    background: #FBF8F5;
+    text-align: center;
+    &__title{
+        font-size: 36px;
+        color: #000000;
+    }
+    &__block{
+        margin: 57px 0 55px;
+    }
+    &__box{
+        max-width: 233px;
+        background: #fff;
+        padding: 40px 32px 69px;
+        &-img{
+            width: 169px;
+            height: 169px;  
+        }
+        &-info{
+            margin-top: 31px;
+        }
+        &-title{
+            font-size: 18px;
+            color: #000000;
+            margin-bottom: 9px;
+        }
+        &-text{
+            font-size: 18px;
+            line-height: 28px;
+            text-align: center;
+            color: #000000;
+            
+            & > span{
+                color: #E9672B;
+            }
+        }
+    }
+    &__link{
+        font-size: 18px;
+        color: #E9672B;
+    }
+}
